@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    left: 40%;
+    align-items: center;
+    top: -5%;
+   
+   
+}
+.square{
+    margin: 200px 20px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color:rgb(178, 32, 129);
+}
+.text{
+    font-size: 40PX;
+    z-index: 1;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    color: white;
+}
+
+.cont{
+    height: 100v;
+    display: flex;
+    position: absolute;
+    right: 48%;
+    top: 80px;
+    align-items: center;
+ 
+}
+.circle{
+    margin: 100px 20px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color:rgb(32, 178, 44);
+}
+.text22{
+    font-size: 40PX;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    color: white;
+
+}
+.topimg{
+    position: absolute;
+    top: 0%;
+}
+
+.leftimg{
+    position: absolute;
+    bottom: 20%;
+}
+.rightimfg{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.leftcircle3{
+    width: 5%;
+    height: 18%;
+    border-radius: 50%;
+    background-color: rgb(220, 235, 216);
+    position: absolute;
+    right: 40px;
+    top: 20%;
+}
+.hybridetext{
+    font-size: 24PX;
+    position: absolute;
+    right: 12%;
+    color: white;
+    top: 32px;
+}
+
+.swiper-container {
+    width: 30%;
+    height:30%;
+ 
+  }
+  img {
+    position: absolute;
+    left: 19%;
+}
+.swiper-container.swiper-container-initialized.swiper-container-horizontal {
+    top: 220px;
+    
+}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.linetext {
+    width: 241px;
+    height: 212px;
+    position: absolute;
+    right: 16%;
+    bottom: 30%; 
+    color: white;   
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.box{
+    width: 15%;
+    height: 5%;
+    color:black;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5%;
+    bottom: 5%;
+   
+}
+.upperimfg{
+    position: absolute;
+    top: 0%;
+}
+.box2{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-size: 30px;
+}
+.slide{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 39%;
+}
+
+
