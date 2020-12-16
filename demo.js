@@ -1,4 +1,5 @@
 //////////////BOX////////////////////////////////////
+console.log("priyanshu");
 TweenMax.set('.square', { autoAlpha: 1, x: -1000 })
    
 var t1 = new TimelineMax();
